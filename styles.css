@@ -73,34 +73,40 @@ nav > ul > li:last-of-type > a:last-of-type{
   background-repeat: repeat;
   height: 88vh;
   background-position: 90% 60%, center center;
-  padding-top: 90px;
+  padding-top: 86px;
   padding-bottom: 97px;
   position: relative;
 }
 
 .welcome-header {
   font-size: 4.2em;
+  font-style: italic;
   margin-top: 135px;
   opacity: 0;
 }
 
 .content-details1 {
-  margin-top: 12px;
-  font-size: 1.29em;
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: 400;
+  font-style: italic;
   margin-bottom: 15px;
   opacity: 0;
+  color: rgb(228, 222, 222);
 }
 
 .content-details2 {
+  margin-top: 25px;
   font-size: 1.2em;
-  margin-bottom: 95px;
-  color: rgb(226, 226, 21);
+  font-style: italic;
+  margin-bottom: 55px;
+  color: #67939b;
   opacity: 0;
 }
 
 .content-container {
   text-align: center;
-  color: white;
+  color: rgb(228, 222, 222);
 }
 
 .content-link {
@@ -108,7 +114,7 @@ nav > ul > li:last-of-type > a:last-of-type{
   color: rgb(29, 29, 29);
   font-size: 1.1em;
   font-weight: 580;
-  border: 1px solid #96b9c1;
+  border: 1px solid #67939b;
   background-color: #67939b;
   padding: 14px 16px 14px 16px;
   border-radius: 25px; 
@@ -131,8 +137,8 @@ nav > ul > li:last-of-type > a:last-of-type{
 
 .planets{
   position: absolute;
-  left: 80px;
-  top: 350px;
+  left: 50px;
+  top: 300px;
   height: 200px;
   width: 200px;
   object-fit: contain;
@@ -242,7 +248,7 @@ nav > ul > li:last-of-type > a:last-of-type{
 
 .p-i i {
  font-size: 1.2em; 
- color: white; 
+ color: #67939b; 
 }
 
 .about-container {
@@ -354,6 +360,7 @@ nav > ul > li:last-of-type > a:last-of-type{
 }
 
 .courses1 {
+  margin-top: -5px;
   height: 75vh;
   background-color: #67939b;
   text-align:  center;
@@ -361,16 +368,17 @@ nav > ul > li:last-of-type > a:last-of-type{
 }
 
 .course-p1 {
-  padding-top: 80px;
-  padding-bottom: 5px;
-  font-size: 5em;
+  padding-top: 75px;
+  padding-bottom: 10px;
+  font-size: 4.9em;
   font-weight: 600;
+  /*font-style: italic;*/
   opacity: 0;
 }
 
 .course-p2 {
   font-size: 1.29em;
-  padding-bottom: 40px;
+  padding-bottom: 48px;
   font-weight: 500;
   opacity: 0;
 }
@@ -382,7 +390,8 @@ nav > ul > li:last-of-type > a:last-of-type{
   font-weight: 580;
   border: 1px solid #96b9c1;
   background-color: #365e67;
-  padding: 12px 47px 12px 47px;
+  /*padding: 12px 47px 12px 47px;*/
+  padding: 12px 25px 12px 25px;
   border-radius: 25px; 
 }
 
@@ -392,7 +401,8 @@ nav > ul > li:last-of-type > a:last-of-type{
   font-size: 1.1em;
   font-weight: 580;
   border: 2px solid #365e67;
-  padding: 12px 40px 12px 40px;
+  /*padding: 12px 40px 12px 40px;*/
+  padding: 12px 25px 12px 25px;
   border-radius: 25px;
 }
 
@@ -403,11 +413,13 @@ nav > ul > li:last-of-type > a:last-of-type{
   font-weight: 580;
   border: 1px solid #96b9c1;
   background-color: #365e67;
-  padding: 12px 30px 12px 30px;
+  /*padding: 12px 30px 12px 30px;*/
+  padding: 12px 25px 12px 25px;
   border-radius: 25px; 
 }
 
 .courses2 {
+  margin-top: -10px;
   height: 75vh;
   background-color: #365e67;
   text-align:  center;
@@ -420,7 +432,7 @@ nav > ul > li:last-of-type > a:last-of-type{
   font-size: 1.1em;
   font-weight: 580;
   border: 1px solid #96b9c1;
-  padding: 12px 54px 12px 54px;
+  padding: 12px 25px 12px 25px;
   border-radius: 25px; 
 }
 
@@ -430,7 +442,8 @@ nav > ul > li:last-of-type > a:last-of-type{
   font-size: 1.1em;
   font-weight: 580;
   background-color: #67939b;
-  padding: 12px 40px 12px 40px;
+  /*padding: 12px 40px 12px 40px;*/
+  padding: 12px 25px 12px 25px;
   border-radius: 25px;
 }
 
@@ -440,7 +453,8 @@ nav > ul > li:last-of-type > a:last-of-type{
   font-size: 1.1em;
   font-weight: 580;
   border: 1px solid #96b9c1;
-  padding: 12px 36px 12px 36px;
+  /*padding: 12px 36px 12px 36px;*/
+  padding: 12px 25px 12px 25px;
   border-radius: 25px;
 }
 
@@ -458,7 +472,8 @@ nav > ul > li:last-of-type > a:last-of-type{
   font-weight: 580;
   border: 1px solid #365e67;
   background-color: #67939b;
-  padding: 12px 35px 12px 35px;
+  /*padding: 12px 35px 12px 35px;*/
+  padding: 12px 25px 12px 25px;
   border-radius: 25px; 
 }
 
@@ -469,7 +484,8 @@ nav > ul > li:last-of-type > a:last-of-type{
   font-weight: 580;
   border: 1px solid #365e67;
   background-color: #365e67;
-  padding: 12px 43px 12px 43px;
+  /*padding: 12px 43px 12px 43px;*/
+  padding: 12px 25px 12px 25px;
   border-radius: 25px;
 }
 
@@ -480,40 +496,7 @@ nav > ul > li:last-of-type > a:last-of-type{
   font-weight: 580;
   border: 1px solid #365e67;
   background-color: #67939b; 
-  padding: 12px 17px 12px 17px;
-  border-radius: 25px; 
-}
-
-.course-linka {
-  text-decoration: none;
-  color: rgb(29, 29, 29);
-  font-size: 1.1em;
-  font-weight: 580;
-  border: 1px solid #365e67;
-  background-color: #67939b;
-  padding: 12px 57px 12px 57px;
-  border-radius: 25px; 
-}
-
-.course-linkb {
-  text-decoration: none;
-  color: rgb(29, 29, 29);
-  font-size: 1.1em;
-  font-weight: 580;
-  border: 1px solid #365e67;
-  background-color:  #365e67;
-  padding: 12px 40px 12px 40px;
-  border-radius: 25px;
-}
-
-.course-linkc {
-  text-decoration: none;
-  color: rgb(29, 29,29);
-  font-size: 1.1em;
-  font-weight: 580;
-  border: 1px solid #365e67;
-  background-color: #67939b;
-  padding: 12px 42px 12px 42px;
+  padding: 12px 25px 12px 25px;
   border-radius: 25px; 
 }
 
@@ -526,7 +509,7 @@ nav > ul > li:last-of-type > a:last-of-type{
 
 .icon-link i {
   position: absolute;
-  top: 60px;
+  top: 30px;
   left: 545px;
   font-size: 2em;
   border: 1px solid #365e67;
@@ -539,7 +522,7 @@ nav > ul > li:last-of-type > a:last-of-type{
 .see-more-btn {
   display: none;
   position: absolute;
-  top: 60px;
+  top: 30px;
   left: 373px;
   border: 1px solid #365e67;
   background-color: #67939b;
