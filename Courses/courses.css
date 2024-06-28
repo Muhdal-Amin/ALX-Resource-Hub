@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  padding-top: 9px;
+  background-color: white;
+  position: fixed;
+  z-index: 5;
+  
+}
+
+.logo {
+  width: 58px;
+  height: 58px;
+  margin-left: 34px;
+  margin-top: -9px;
+}
+
+i {
+  color: rgb(29, 29, 29);
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+  margin-left: 350px;
+  margin-top: 10px;
+}
+
+nav > ul > li > a {
+  color: rgb(29, 29, 29);
+  text-decoration: none;
+  margin-right: 60px;
+  font-size: 1.05em;
+}
+
+nav > ul > li:not(:last-of-type) > a:hover{
+  color: #282A35;
+  margin-right: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-top: 7px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 7px;
+  border-radius: 18px; 
+}
+
+nav > ul > li:last-of-type > a:last-of-type{
+  display: block;
+  color: rgb(29, 29, 29);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  padding: 9px 10px 9px 10px;
+  border-radius: 22px; 
+  margin-top: -9px;
+}
+
+.welcome-container {
+  background-image: url(./Images/background_in_space.gif);
+  /*background-color: #282A35;*/
+  background-repeat: repeat;
+  height: 52vh;
+  background-position: 90% 60%, center center;
+  padding-top: 127px;
+  padding-bottom: 97px;
+  position: relative;
+}
+
+.welcome-header {
+  font-size: 3.68em;
+  margin-top: 49px;
+  opacity: 0;
+  font-style: italic;
+}
+
+.content-details1 {
+  margin-top: 12.3px;
+  font-size: 1.29em;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 15px;
+  opacity: 0;
+  color: #67939b;
+}
+
+.content-container {
+  text-align: center;
+  color: rgb(236, 231, 231);
+}
+
+@keyframes slideIn4 {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(20%);
+  }
+}
+
+/* Define a class to represent elements that should animate on page load */
+/* Add animation for sliding in the h1 and p tags */
+@keyframes slideIn1 {
+  from {
+    opacity: 0;
+    transform: translateX(-70px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideIn2 {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn3 {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply animation to elements with the animate-on-load class */
+.animate-on-load1 {
+  animation: slideIn1 3s ease forwards;
+}
+
+.animate-on-load2 {
+  animation: slideIn2 3s ease forwards;
+}
+
+.animate-on-load3 {
+  animation: slideIn3 3s ease forwards;
+}
+
+/* Define a class to represent elements that should animate on scroll */
+/* Apply animation to elements with the animate-on-scroll class when they enter the viewport */
+.animate-on-scroll1.in-viewport {
+  animation: slideIn1 3s ease forwards;
+}
+
+.animate-on-scroll2.in-viewport {
+  animation: slideIn2 3s ease forwards;
+}
+
+/* Define a keyframe animation named 'jump' */
+@keyframes jump {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); /* Initial, midway, and final position is no translation */
+  }
+  40% {
+    transform: translateY(-11px); /* Jump up at 40% */
+  }
+  60% {
+    transform: translateY(-8px); /* Jump down at 60% */
+  }
+}
+
+.courses1 {
+  margin-top: -5px;
+  height: 75vh;
+  background-color: #67939b;
+  text-align:  center;
+  color: rgb(29, 29, 29);
+}
+
+.course-p1 {
+  padding-top: 75px;
+  padding-bottom: 10px;
+  font-size: 4.9em;
+  font-weight: 600;
+  font-style: italic;
+  opacity: 0;
+}
+
+.course-p2 {
+  font-size: 1.29em;
+  padding-bottom: 48px;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.course-link1 {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 1.1em;
+  font-weight: 580;
+  border: 1px solid #96b9c1;
+  background-color: #365e67;
+  /*padding: 12px 47px 12px 47px;*/
+  padding: 12px 25px 12px 25px;
+  border-radius: 25px; 
+}
+
+.course-link2 {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 1.1em;
+  font-weight: 580;
+  border: 2px solid #365e67;
+  /*padding: 12px 40px 12px 40px;*/
+  padding: 12px 25px 12px 25px;
+  border-radius: 25px;
+}
+
+.course-link3 {
+  text-decoration: none;
+  color: rgb(29, 29,29);
+  font-size: 1.1em;
+  font-weight: 580;
+  border: 1px solid #96b9c1;
+  background-color: #365e67;
+  /*padding: 12px 30px 12px 30px;*/
+  padding: 12px 25px 12px 25px;
+  border-radius: 25px; 
+}
+
+.courses2 {
+  margin-top: -10px;
+  height: 75vh;
+  background-color: #365e67;
+  text-align:  center;
+  color: rgb(29, 29, 29);
+}
+
+.course-link4 {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 1.1em;
+  font-weight: 580;
+  border: 1px solid #96b9c1;
+  padding: 12px 25px 12px 25px;
+  border-radius: 25px; 
+}
+
+.course-link5 {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 1.1em;
+  font-weight: 580;
+  background-color: #67939b;
+  /*padding: 12px 40px 12px 40px;*/
+  padding: 12px 25px 12px 25px;
+  border-radius: 25px;
+}
+
+.course-link6 {
+  text-decoration: none;
+  color: rgb(29, 29,29);
+  font-size: 1.1em;
+  font-weight: 580;
+  border: 1px solid #96b9c1;
+  /*padding: 12px 36px 12px 36px;*/
+  padding: 12px 25px 12px 25px;
+  border-radius: 25px;
+}
+
+.courses3 {
+  height: 75vh;
+  background-color: #96b9c1;
+  text-align:  center;
+  color: rgb(29, 29, 29);
+}
+
+.course-link7{
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 1.1em;
+  font-weight: 580;
+  border: 1px solid #365e67;
+  background-color: #67939b;
+  /*padding: 12px 35px 12px 35px;*/
+  padding: 12px 25px 12px 25px;
+  border-radius: 25px; 
+}
+
+.course-link8 {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 1.1em;
+  font-weight: 580;
+  border: 1px solid #365e67;
+  background-color: #365e67;
+  /*padding: 12px 43px 12px 43px;*/
+  padding: 12px 25px 12px 25px;
+  border-radius: 25px;
+}
+
+.course-link9 {
+  text-decoration: none;
+  color: rgb(29, 29,29);
+  font-size: 1.1em;
+  font-weight: 580;
+  border: 1px solid #365e67;
+  background-color: #67939b; 
+  padding: 12px 25px 12px 25px;
+  border-radius: 25px; 
+}
+
+.footer {
+  /*background-image: url(./Images/background_in_space.gif);*/
+  background-color: #282A35; /*#365e67;*/
+  background-repeat: repeat;
+  height: /*35vh;*/ 40vh;
+  position: relative;
+  margin-top: -10px;
+  margin-left: -10px;
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+.footer img {
+  margin-top: -13px; /*20px;*/
+  width: 150px; /*80px;*/
+  height: 150px; /*80px;*/
+  object-fit: contain;
+  margin-left: 85px; /*120px;*/
+}
+
+.footer p{
+  color: #365e67; /*rgb(29, 29, 29);*/
+  margin: -30px 90px 0 128px;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.footer .img-container ul{
+  display: flex;
+  justify-content: space-between;
+  color: #96b9c1; /*rgb(29, 29, 29);*/
+  margin: 25px 90px 0 150px;
+  font-size: 1.1em;
+}
+
+.col-2 {
+  display: flex;
+  gap: 10rem;
+  padding-top: 40px;
+}
+
+.col-2 ul {
+  list-style-type: none;
+}
+
+.col-2 ul li {
+  margin-bottom: 1.2rem;
+}
+
+.col-2 ul li a {
+  color:  #96b9c1; /*rgb(29, 29, 29);*/
+  font-size: 1.15em;
+}
+
+/* Media Queries */
+
+/*@media only screen and (max-width: 1400px) {
+  nav > ul {
+    margin-left: 250px;
+  } 
+
+  nav > ul > li:last-of-type > a:last-of-type{
+    display: none;
+    color: rgb(29, 29, 29);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    padding: 9px 10px 9px 10px;
+    border-radius: 22px; 
+    margin-top: -9px;
+  }
+  
+}*/
