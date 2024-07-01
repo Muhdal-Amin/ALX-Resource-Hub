@@ -49,7 +49,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [ALX Resource Hub]()
+- Live Site URL: [ALX Resource Hub](https://muhdal-amin.github.io/ALX-Resource-Hub/)
 
 ## My process
 
@@ -62,8 +62,12 @@ Users should be able to:
 
 ## Acknowledgements
 
-[ To ALX - For giving me the wings to fly and watering my bare dreams]
+To ALX - For giving me the wings to fly and watering my bare dreams
+
+
 [Muhdal-Amin](https://github.com/Muhdal-Amin)
+
+
 [w3schools](https://w3schools..com)
 
 ## Conclusion
