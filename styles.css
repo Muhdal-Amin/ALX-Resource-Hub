@@ -110,7 +110,10 @@
   }
   
   .content-link {
-    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
     color: rgb(29, 29, 29);
     font-size: 1.1em;
     font-weight: 580;
@@ -118,6 +121,24 @@
     background-color: #67939b;
     padding: 14px 16px 14px 16px;
     border-radius: 25px; 
+    margin-top: -20px;
+  }
+
+  .content-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    transition: all 0.7s ease;
+  }
+
+  .content-link:hover::before {
+    left: 0;
+    color: black;
   }
   
   @keyframes slideIn4 {
@@ -131,9 +152,6 @@
     }
   }
   
-  .content-link:hover i {
-    animation: slideIn4 1s ease infinite;
-  }
   
   .planets{
     position: absolute;
@@ -151,6 +169,7 @@
     height: 280px;
     width: 280px;
     object-fit: contain;
+    animation: jump 3s infinite;
   }
   
   /* Define a class to represent elements that should animate on page load */
@@ -228,7 +247,7 @@
       transform: translateY(0); /* Initial, midway, and final position is no translation */
     }
     40% {
-      transform: translateY(-11px); /* Jump up at 40% */
+      transform: translateY(-13px); /* Jump up at 40% */
     }
     60% {
       transform: translateY(-8px); /* Jump down at 60% */
@@ -296,8 +315,8 @@
     flex: 0.6;
     margin: 60px 0 10px 30px;
     height: 250px;
-    border: 2px solid #96b9c1;
-    background-color: #365e67;
+    border: 2px solid  #365e67; /*#96b9c1; rgba(54, 94, 103, 0.7);*/
+    background-color: #365e67; /*rgba(54, 94, 103, 0.7);*/
     border-radius: 20px;
     text-align: center;
     opacity: 0;
