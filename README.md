@@ -45,7 +45,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./)
+![Screenshot](./Images/alx-resource-hub.png)
+
+![Screenshot](./Images/alx-resource-hub2.png)
+
 
 ### Links
 
@@ -62,7 +65,7 @@ Users should be able to:
 
 ## Acknowledgements
 
-To ALX - For giving me the wings to fly and watering my bare dreams
+To ALX - For giving me the wings to fly and watering my bare dreams!
 
 
 [Muhdal-Amin](https://github.com/Muhdal-Amin)
