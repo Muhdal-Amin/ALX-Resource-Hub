@@ -62,6 +62,8 @@ Users should be able to:
 - CSS3
 - JavaScript
 - Mocky (Backend simulation Mock API tool)
+- FireBase (User Login and Authentication)
+- Git
 
 ## Acknowledgements
 
