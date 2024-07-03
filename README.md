@@ -54,6 +54,10 @@ Users should be able to:
 
 - Live Site URL: [ALX Resource Hub](https://muhdal-amin.github.io/ALX-Resource-Hub/)
 
+- Presentation Slides: [ALX Resource Hub](https://docs.google.com/presentation/d/1nmW8wYbJwOrMhNUqBt_uUPaTqw4lWwqxDxbqDiMwq_Q/edit?usp=sharing )
+
+- Live Demo: [ALX Resource Hub](https://youtu.be/E8aG0LkiX2Q?feature=shared)
+
 ## My process
 
 ### Built with
