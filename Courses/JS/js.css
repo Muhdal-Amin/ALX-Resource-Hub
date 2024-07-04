@@ -76,6 +76,10 @@ img {
   background-position: 0%; 
 }
 
+.header {
+  margin-left: -70px;
+}
+
 header {
   color: #232323;
   margin: 16px 10px 7px 15px;
@@ -193,13 +197,13 @@ code {
   width: 100px;
   height: 100%;
   z-index: 1;
-  background-color: rgb(224, 223, 223);
+  background-color: #96b9c1;
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
 
   #navbar ul {
-  height: 90%;
+  height: 91%;
   }
 
   .menu__toggle input:checked ~ #navbar  {
