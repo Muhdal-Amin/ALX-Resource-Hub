@@ -63,8 +63,8 @@ Users should be able to:
 ### Built with
 
 - HTML5
-- CSS3
-- JavaScript
+- CSS3 / TailWind(CSS Framework)
+- JavaScript / React(JS Framework)
 - Mocky (Backend simulation Mock API tool)
 - FireBase (User Login and Authentication)
 - Git
