@@ -67,6 +67,7 @@ Users should be able to:
 - JavaScript / React(JS Framework)
 - Mocky (Backend simulation Mock API tool)
 - FireBase (User Login and Authentication)
+- Fluid UI (Mock-up Design)
 - Git
 
 ## Acknowledgements
