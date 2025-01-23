@@ -52,7 +52,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [ALX Resource Hub](https://muhdal-amin.github.io/ALX-Resource-Hub/)
+- Live Site URL: [ALX Resource Hub](https://alx-resource-hub.netlify.app)
 
 - Presentation Slides: [ALX Resource Hub](https://docs.google.com/presentation/d/1nmW8wYbJwOrMhNUqBt_uUPaTqw4lWwqxDxbqDiMwq_Q/edit?usp=sharing )
 
@@ -72,7 +72,7 @@ Users should be able to:
 
 ## Acknowledgements
 
-To ALX - For giving me the wings to fly and watering my bare dreams!
+To ALX - For giving me the wings to fly and for watering my bare dreams!
 
 
 [Muhdal-Amin](https://github.com/Muhdal-Amin)
