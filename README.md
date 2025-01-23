@@ -14,7 +14,7 @@
 
 
 ## Overview
-The ALX Resource Hub is a organized centralized platform designed to provide comprehensive resources and support to students, educators and professionals associated with the ALX program. The hub serves as a one stop shop for accessing educational materials, tools and information essential for learning and development within the ALX ecosystem.
+The ALX Resource Hub is an organized centralized platform designed to provide comprehensive resources and support to students, educators and professionals associated with the ALX program. The hub serves as a one stop shop for accessing educational materials, tools and information essential for learning and development within the ALX ecosystem.
 
 ## What is ALX?
 ALX is an initiative under the African Leadership Group, which is dedicated to transfroming Africa by developing the continent's next generation of leaders. The program offers a variety of educational and professional training programs, focusing on areas such as software engineering, data science, business leadership and more. ALX aims to equip individuals with the skills and knowledge necessary to thrive in the modern, global economy.
